@@ -1,0 +1,43 @@
+/* Info Button */
+
+
+.InfoBtn {
+    position: fixed;
+    right: 60px;
+    top: 60px;
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    display: block;
+    z-index: 99;
+    transition: background-color 250ms;
+}
+
+
+.InfoBtn:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+.InfoBtn:before {
+    height: 2px;
+    top: 18px;
+}
+
+.InfoBtn:after {
+    height: 10px;
+    top: 22px;
+}
+
+
+.pf_post_info:before {
+    height: 2px;
+    top: 18px;
+}
+
+.pf_post_info:after {
+    height: 10px;
+    top: 22px;
+}

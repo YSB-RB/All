@@ -1,0 +1,37 @@
+.ImageContainer{
+    width: 1600px;
+    margin: 20px auto;
+    columns : 4;
+    column-gap: 20px;
+}
+
+.imgBox{
+    width: 100%;
+    margin-bottom: 10px;
+    break-inside: avoid;
+
+}
+.Img{
+    max-width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+@media (max-width : 1200px){
+    .ImageContainer{
+        width: calc(100% - 40px);
+        columns: 3;
+    }
+}
+
+@media (max-width : 768px){
+    .ImageContainer{
+        columns: 2;
+    }
+}
+
+@media (max-width : 480px){
+    .ImageContainer{
+        columns: 1;
+    }
+}
